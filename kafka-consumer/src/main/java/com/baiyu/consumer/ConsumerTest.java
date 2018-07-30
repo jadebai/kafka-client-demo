@@ -15,6 +15,6 @@ public class ConsumerTest {
 //        ConsumerThred consumerThred = new ConsumerThred(KafkaProtitesContans.TOPIC);
 //        consumerThred.start();
         KafkaConsumerThred kafkaConsumerThred = new KafkaConsumerThred(KafkaProtitesContans.TOPIC);
-        kafkaConsumerThred.run();
+        kafkaConsumerThred.start();
     }
 }
